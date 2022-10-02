@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="text-center">
+    <h4>WBC: {{ WBC }}</h4></br>
+
+    <a class="btn btn-success mb-3" href="{{ url_for('mine_WBC') }}" role="button">Mine WBC</a></br>
+    <a class="btn btn-primary mb-3" href="{{ url_for('transaction_list') }}" role="button">Show chain</a></br>
+    <a class="btn btn-danger mb-3" href="{{ url_for('clear_blockchain') }}" role="button">Clear chain</a>
+</div>
+
+{% endblock %}

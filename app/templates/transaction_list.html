@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if list %}
+    <div class="text-center">
+        {% for item in list %}
+            <h4> {{item['name']}}, transactions: {{item['transactions']}} </h4></br>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% endblock %}
