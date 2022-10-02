@@ -1,3 +1,3 @@
-# WBC-WebBlockChain
-Blockchain built using Python Flask.
-On this blockchain the cryptocurrency WBC (Webcoin) is used.
+# WebBlockChain
+Blockchain built using Python Flask.</br>
+For practical purposes cryptocurrency WBC (Webcoin) is introduced and based on this blockchain.
